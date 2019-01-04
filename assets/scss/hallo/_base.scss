@@ -40,3 +40,42 @@ img.portrait {
     width: 300px;
     height: 300px;
 }
+
+.center {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+span {
+  font-family: 'Voltaire', sans-serif;
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: -4px;
+}
+
+.fliph {
+  display: inline-block;
+  top: 12px;
+  /*vertical-align: bottom;*/
+  font-size: 52px;
+  transform: scaley(-1); /* Or also:   rotateY(180deg) */
+  -ms-filter: fliph;
+  filter: fliph;
+}
+
+.lower {
+  display: inline-block;
+  color: #6c6c6c;
+  top: 0px;
+  font-size: 50px;
+  /*vertical-align: bottom;*/
+}
+
+
+
+
